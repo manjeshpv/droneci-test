@@ -1,5 +1,5 @@
 build:
-  image: manjeshpv/droneapp
+  image: manjeshpv/droneapp:latest
   commands:
     - node -v
     - node -v
