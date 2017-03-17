@@ -1,3 +1,4 @@
-image: manjeshpv/droneapp
-script:
-- echo hello world
+build:
+  image: mashape/docker-nodejs
+  commands:
+    - echo hello world
