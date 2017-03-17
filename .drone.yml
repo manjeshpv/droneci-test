@@ -1,4 +1,7 @@
 build:
-  image: mashape/docker-nodejs
+  image: manjeshpv/droneapp
   commands:
-    - echo hello world
+    - node -v
+    - grunt -v
+    - gulp -v
+    - bower -v
