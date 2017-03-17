@@ -1,6 +1,8 @@
 build:
   image: manjeshpv/droneapp
   commands:
+    - npm install grunt-cli gulp bower mocha
+    - node -v
     - node -v
     - grunt -v
     - gulp -v
